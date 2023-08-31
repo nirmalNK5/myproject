@@ -8,12 +8,12 @@ body {
 }
 
 h3 {
-  color: white;
+  color: black;
 }
 
 .topnav {
   overflow: hidden;
-  background-color: #131720;
+  background-color: #113f67;
   padding: 10px;
 }
 
@@ -28,12 +28,22 @@ h3 {
   text-transform: uppercase;
 }
 
+topnav name {
+  float: center;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
 .topnav .search-container {
   float: right;
 }
 
 form {
-  background-color: gray;
+  background-color: white;
   width: 300px;
   height: 43px;
   border-radius: 11px;
@@ -44,7 +54,7 @@ form {
 input {
   all: unset;
   font: 15px system-ui;
-  color: white;
+  color: black;
   height: 100%;
   width: 100%;
   padding: 6px 9px;
@@ -71,5 +81,5 @@ input {
   border-radius: 19px;
   padding: 15px;
   text-align: center;
-  background-color: #151f30;
+  background-color: white;
 }
